@@ -386,14 +386,14 @@ namespace nodetool
     }
     else
     {
-      full_addrs.insert("35.169.138.161:22022"); 
-      full_addrs.insert("13.114.229.174:22022"); 
-      full_addrs.insert("18.130.22.23:22022"); 
-      full_addrs.insert("52.9.29.141:22022"); 
-      full_addrs.insert("13.55.199.36:22022"); 
-      full_addrs.insert("18.194.200.91:22022"); 
-      full_addrs.insert("192.243.101.61:22022"); 
-      full_addrs.insert("192.243.100.139:22022");
+      full_addrs.insert("192.168.2.45:27017"); 
+      full_addrs.insert("192.168.2.44:27017"); 
+    //  full_addrs.insert("18.130.22.23:22022"); 
+   //   full_addrs.insert("52.9.29.141:22022"); 
+   //   full_addrs.insert("13.55.199.36:22022"); 
+   //   full_addrs.insert("18.194.200.91:22022"); 
+  //    full_addrs.insert("192.243.101.61:22022"); 
+  //    full_addrs.insert("192.243.100.139:22022");
     }
     return full_addrs;
   }

@@ -168,39 +168,39 @@ namespace config
 
   std::string const GOVERNANCE_WALLET_ADDRESS = "";
   
-  //namespace testnet
-  //{
-  //  uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 156;
-   // uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 157;
-  //  uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 158;
-   // uint16_t const P2P_DEFAULT_PORT = 38150;
-   // uint16_t const RPC_DEFAULT_PORT = 38151;
-   // uint16_t const ZMQ_RPC_DEFAULT_PORT = 38152;
-  //  boost::uuids::uuid const NETWORK_ID = { {
- //       0x44, 0xb3, 0xe9, 0xef, 0x80, 0xc0, 0x08, 0x19, 0xb4, 0x2c, 0x83, 0xec, 0xef, 0x59, 0x24, 0xfd
- //     } }; // Bender's daydream
- //   std::string const GENESIS_TX = "021e01ff000380808d93f5d77102036a65eb633efc8d73133cce56de1fbc4478f62a2d3f74f4e18c6ed14b0212358080b4ccd4dfc6030217f5a14c129669199643d3890b0c575d4e6048807c1ae7b2fe9468f755383e17808088fccdbcc32302d1137109f8fa24e3cfb224dc0ce594eabf9e976640a9e6ca78656936677d9af82101ab8b15dea6402670113dc2ff59653d3b2e859e2d56af7f7c2773f9dcac8385d200";
- //   uint32_t const GENESIS_NONCE = 10001;
-//
-//    std::string const GOVERNANCE_WALLET_ADDRESS = "T6U5dnmhyw1XsDryZUZL4hAwkNDYahFLEbhyfipTJ2ZZLV1Epm5zHTf6SQzxre9V8R9zjSPN6WWiT9adBQYt7Wut2xjon6dgT";
-//  }
+  namespace testnet
+  {
+    uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 156;
+    uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 157;
+    uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 158;
+    uint16_t const P2P_DEFAULT_PORT = 38150;
+    uint16_t const RPC_DEFAULT_PORT = 38151;
+    uint16_t const ZMQ_RPC_DEFAULT_PORT = 38152;
+    boost::uuids::uuid const NETWORK_ID = { {
+        0x44, 0xb3, 0xe9, 0xef, 0x80, 0xc0, 0x08, 0x19, 0xb4, 0x2c, 0x83, 0xec, 0xef, 0x59, 0x24, 0xfd
+      } }; // Bender's daydream
+    std::string const GENESIS_TX = "021e01ff000380808d93f5d77102036a65eb633efc8d73133cce56de1fbc4478f62a2d3f74f4e18c6ed14b0212358080b4ccd4dfc6030217f5a14c129669199643d3890b0c575d4e6048807c1ae7b2fe9468f755383e17808088fccdbcc32302d1137109f8fa24e3cfb224dc0ce594eabf9e976640a9e6ca78656936677d9af82101ab8b15dea6402670113dc2ff59653d3b2e859e2d56af7f7c2773f9dcac8385d200";
+    uint32_t const GENESIS_NONCE = 10001;
 
- // namespace stagenet
- // {
- //   uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 24;
- //   uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 25;
- //   uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 36;
-  //  uint16_t const P2P_DEFAULT_PORT = 38153;
-  //  uint16_t const RPC_DEFAULT_PORT = 38154;
-  //  uint16_t const ZMQ_RPC_DEFAULT_PORT = 38155;
-  //  boost::uuids::uuid const NETWORK_ID = { {
-   //     0xbb ,0x37, 0x9B, 0x22 , 0x0A, 0x66 , 0x69, 0x1E, 0x09, 0xB2, 0x97, 0x8A, 0xCC, 0xA1, 0xDF, 0x9C
-   //   } }; // Beep Boop
-   // std::string const GENESIS_TX = "021e01ff000380808d93f5d771027e4490431900c66a6532917ad9e6a1de634a209b708f653097e7b48efc1238c68080b4ccd4dfc60302ba19a224e6474371f9161b2e6271a36d060cbdc2e479ad78f1be64c56576fa07808088fccdbcc32302bccf9c13ba1b5bb02638de6e557acdd46bf48953e42cf98a12d2ad2900cc316121018fc6728d9e3c062d3afae3b2317998d2abee1e12f51271ba1c0d3cdd236b81d200";
-  //  uint32_t const GENESIS_NONCE = 10002;
-//
- //   std::string const GOVERNANCE_WALLET_ADDRESS = "59f7FCwYMiwMnFr8HwsnfJ2hK3DYB1tryhjsfmXqEBJojKyqKeNWoaDaZaauoZPiZHUYp2wJuy5s9H96qy4q9xUVCXXHmTU";
-//  }
+    std::string const GOVERNANCE_WALLET_ADDRESS = "T6U5dnmhyw1XsDryZUZL4hAwkNDYahFLEbhyfipTJ2ZZLV1Epm5zHTf6SQzxre9V8R9zjSPN6WWiT9adBQYt7Wut2xjon6dgT";
+  }
+
+  namespace stagenet
+  {
+    uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 24;
+    uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 25;
+    uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 36;
+    uint16_t const P2P_DEFAULT_PORT = 38153;
+    uint16_t const RPC_DEFAULT_PORT = 38154;
+    uint16_t const ZMQ_RPC_DEFAULT_PORT = 38155;
+    boost::uuids::uuid const NETWORK_ID = { {
+        0xbb ,0x37, 0x9B, 0x22 , 0x0A, 0x66 , 0x69, 0x1E, 0x09, 0xB2, 0x97, 0x8A, 0xCC, 0xA1, 0xDF, 0x9C
+      } }; // Beep Boop
+    std::string const GENESIS_TX = "021e01ff000380808d93f5d771027e4490431900c66a6532917ad9e6a1de634a209b708f653097e7b48efc1238c68080b4ccd4dfc60302ba19a224e6474371f9161b2e6271a36d060cbdc2e479ad78f1be64c56576fa07808088fccdbcc32302bccf9c13ba1b5bb02638de6e557acdd46bf48953e42cf98a12d2ad2900cc316121018fc6728d9e3c062d3afae3b2317998d2abee1e12f51271ba1c0d3cdd236b81d200";
+    uint32_t const GENESIS_NONCE = 10002;
+
+    std::string const GOVERNANCE_WALLET_ADDRESS = "59f7FCwYMiwMnFr8HwsnfJ2hK3DYB1tryhjsfmXqEBJojKyqKeNWoaDaZaauoZPiZHUYp2wJuy5s9H96qy4q9xUVCXXHmTU";
+  }
 }
 
 namespace cryptonote
